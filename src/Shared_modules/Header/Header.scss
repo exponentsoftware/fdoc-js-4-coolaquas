@@ -1,0 +1,35 @@
+@import "../../variable.scss";
+.HeaderContainer {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  background-color: transparent;
+  color: $white;
+  padding: 1.5rem;
+  justify-content: space-between;
+  font-size: 24px;
+  width: 97vw;
+  height: 1.25rem;
+  transition: all 0.2s ease-in-out;
+  &.scrolled {
+    &.p1 {
+      background-color: $primary1;
+      box-shadow: 0 0 35px rgba($primary1, 0.3);
+    }
+    &.p2 {
+      background-color: $primary2;
+      box-shadow: 0 0 35px rgba($primary2, 0.3);
+    }
+  }
+  .header__right {
+    display: flex;
+    align-items: center;
+    ul {
+      display: flex;
+      li {
+        margin: 0 2rem;
+      }
+    }
+  }
+}

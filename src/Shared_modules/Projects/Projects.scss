@@ -1,0 +1,51 @@
+@import "../../variable.scss";
+.project {
+  color: $white;
+  padding: 3rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  text-align: center;
+  &.p1 {
+    background: $primary1;
+  }
+  &.p2 {
+    background: $white;
+  }
+
+  p {
+    margin: 1rem 0;
+    &.project__heading {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+  .card__section {
+    display: flex;
+    .card {
+      height: 12rem;
+      width: 18rem;
+      background: $white;
+      color: $dark;
+      margin: 0 1rem;
+      display: flex;
+      padding: 0 1.5rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &.p2 {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      div {
+        margin: 0.5rem 0;
+        font-size: 16px;
+        &.title {
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

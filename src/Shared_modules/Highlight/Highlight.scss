@@ -1,0 +1,38 @@
+.highlight {
+  padding: 3rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  text-align: center;
+  .top__sec,
+  .bottom__sec {
+    margin: 1rem 0;
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+
+  .bottom__sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .single__section {
+      width: calc((100vw - 50%) / 3);
+      display: flex;
+      .icon__section {
+        margin-right: 1rem;
+      }
+      .detail__section {
+        padding: 0.5rem 0;
+        text-align: left;
+        .title {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}

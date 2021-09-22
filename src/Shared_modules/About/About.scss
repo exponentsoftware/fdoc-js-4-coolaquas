@@ -1,0 +1,24 @@
+@import "../../variable.scss";
+.About {
+  padding: 3rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  p,
+  .social {
+    margin: 1.5rem 0;
+  }
+  .about__heading {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .social {
+    svg {
+      height: 2rem;
+      margin: 0 0.75rem;
+      fill: $primary1;
+    }
+  }
+}
